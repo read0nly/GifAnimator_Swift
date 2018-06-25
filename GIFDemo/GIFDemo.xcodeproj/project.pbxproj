@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3526BA0C20E0D5950028F47C /* acer01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3526BA0B20E0D5950028F47C /* acer01.gif */; };
 		35EBAB0820E09335009025A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB0720E09335009025A7 /* AppDelegate.swift */; };
 		35EBAB0A20E09335009025A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB0920E09335009025A7 /* ViewController.swift */; };
 		35EBAB0D20E09335009025A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35EBAB0B20E09335009025A7 /* Main.storyboard */; };
 		35EBAB0F20E09335009025A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EBAB0E20E09335009025A7 /* Assets.xcassets */; };
 		35EBAB1220E09335009025A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35EBAB1020E09335009025A7 /* LaunchScreen.storyboard */; };
-		35EBAB1A20E09343009025A7 /* gif_17sd.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35EBAB1920E09343009025A7 /* gif_17sd.gif */; };
-		35EBAB1D20E0935D009025A7 /* NSData+ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB1C20E0935D009025A7 /* NSData+ImageFormat.swift */; };
-		35EBAB1F20E094DD009025A7 /* GifHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB1E20E094DD009025A7 /* GifHelper.swift */; };
 		35EBAB2120E09E3F009025A7 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB2020E09E3F009025A7 /* Animator.swift */; };
 		35EBAB2320E0BCFD009025A7 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EBAB2220E0BCFD009025A7 /* AnimatedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3526BA0B20E0D5950028F47C /* acer01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = acer01.gif; sourceTree = "<group>"; };
 		35EBAB0420E09335009025A7 /* GIFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EBAB0720E09335009025A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35EBAB0920E09335009025A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +26,6 @@
 		35EBAB0E20E09335009025A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35EBAB1120E09335009025A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35EBAB1320E09335009025A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35EBAB1920E09343009025A7 /* gif_17sd.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_17sd.gif; sourceTree = "<group>"; };
-		35EBAB1C20E0935D009025A7 /* NSData+ImageFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+ImageFormat.swift"; sourceTree = "<group>"; };
-		35EBAB1E20E094DD009025A7 /* GifHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifHelper.swift; sourceTree = "<group>"; };
 		35EBAB2020E09E3F009025A7 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		35EBAB2220E0BCFD009025A7 /* AnimatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,11 +74,9 @@
 		35EBAB1B20E09347009025A7 /* GIF */ = {
 			isa = PBXGroup;
 			children = (
-				35EBAB1C20E0935D009025A7 /* NSData+ImageFormat.swift */,
-				35EBAB1E20E094DD009025A7 /* GifHelper.swift */,
 				35EBAB2020E09E3F009025A7 /* Animator.swift */,
 				35EBAB2220E0BCFD009025A7 /* AnimatedImageView.swift */,
-				35EBAB1920E09343009025A7 /* gif_17sd.gif */,
+				3526BA0B20E0D5950028F47C /* acer01.gif */,
 			);
 			path = GIF;
 			sourceTree = "<group>";
@@ -146,8 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35EBAB1A20E09343009025A7 /* gif_17sd.gif in Resources */,
 				35EBAB1220E09335009025A7 /* LaunchScreen.storyboard in Resources */,
+				3526BA0C20E0D5950028F47C /* acer01.gif in Resources */,
 				35EBAB0F20E09335009025A7 /* Assets.xcassets in Resources */,
 				35EBAB0D20E09335009025A7 /* Main.storyboard in Resources */,
 			);
@@ -161,8 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35EBAB2120E09E3F009025A7 /* Animator.swift in Sources */,
-				35EBAB1F20E094DD009025A7 /* GifHelper.swift in Sources */,
-				35EBAB1D20E0935D009025A7 /* NSData+ImageFormat.swift in Sources */,
 				35EBAB0A20E09335009025A7 /* ViewController.swift in Sources */,
 				35EBAB0820E09335009025A7 /* AppDelegate.swift in Sources */,
 				35EBAB2320E0BCFD009025A7 /* AnimatedImageView.swift in Sources */,

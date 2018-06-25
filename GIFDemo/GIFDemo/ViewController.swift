@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       let path = Bundle.main.path(forResource: "gif_17sd", ofType: "gif")
+       let path = Bundle.main.path(forResource: "acer01", ofType: "gif")
         let data = NSData.init(contentsOfFile: path!)
         self.imageView.gifData = data
     }
