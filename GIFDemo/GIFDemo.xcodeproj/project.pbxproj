@@ -63,6 +63,7 @@
 				35EBAB1B20E09347009025A7 /* GIF */,
 				35EBAB0720E09335009025A7 /* AppDelegate.swift */,
 				35EBAB0920E09335009025A7 /* ViewController.swift */,
+				3526BA0B20E0D5950028F47C /* acer01.gif */,
 				35EBAB0B20E09335009025A7 /* Main.storyboard */,
 				35EBAB0E20E09335009025A7 /* Assets.xcassets */,
 				35EBAB1020E09335009025A7 /* LaunchScreen.storyboard */,
@@ -76,7 +77,6 @@
 			children = (
 				35EBAB2020E09E3F009025A7 /* Animator.swift */,
 				35EBAB2220E0BCFD009025A7 /* AnimatedImageView.swift */,
-				3526BA0B20E0D5950028F47C /* acer01.gif */,
 			);
 			path = GIF;
 			sourceTree = "<group>";
